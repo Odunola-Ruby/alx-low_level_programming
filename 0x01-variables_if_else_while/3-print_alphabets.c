@@ -5,7 +5,7 @@
  * Description: prints alphabet in lowercase then uppercase
  * Return: always 0 (success)
  */
-int main (void)
+int main(void)
 {
 	int ch;
 
