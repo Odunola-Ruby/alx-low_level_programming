@@ -2,7 +2,8 @@
 #include <unistd.h>
 /**
  * main - entry point
- * Description: prints all single didgit numbers of base 10 from 0
+ * Description: prints all single digit numbers of
+ * base 10 from 0
  * return: always 0 (success)
  */
 int main(void)
