@@ -1,9 +1,9 @@
 #include <stdio.h>
 #include <unistd.h>
 /**
- * main - entry point
- * Description: prints 3 combination of numbers. 
- * Return: Always 0 (success)
+ * main - prints 3 combination of numbers
+ *
+ * Return: always (success)
  */
 int main(void)
 {
