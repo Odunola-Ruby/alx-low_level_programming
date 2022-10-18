@@ -2,7 +2,7 @@
 #include <unistd.h>
 /**
  * main - entry point
- * 
+ * Description: prints 3 combination of numbers. 
  * Return: Always 0 (success)
  */
 int main(void)
