@@ -1,13 +1,24 @@
 #include <stdio.h>
-
+#include <stdlib.h>
+#include <time.h>
 /**
- * _putchar - writes the character c to stdout
- * @c: The character to print
- * Return: On success 1.
- * On error, -1 is returned, and errno is set appropriately.
+ * main - generates keygen.
+ * Return: 0 Always.
  */
-
-int _putchar(char c)
+int main(void)
 {
-	return (write(1, &c, 1));
-}
+	int r = 0, c = 0;
+	time_t t;
+
+	srand((unsigned int) time(&t));
+	while (c < 2772)
+	{
+		r = rand() % 128;
+
+		if ((c + r) > 2772)
+			break;
+		c = c + r;
+		printf("%c", r);
+		printf("%c\n", (2772 - c));
+		return (0);
+	}
