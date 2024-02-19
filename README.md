@@ -1,1 +1,1 @@
-my second trial at C
+My first readme
